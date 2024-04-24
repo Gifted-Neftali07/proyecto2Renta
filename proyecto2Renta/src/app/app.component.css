@@ -1,0 +1,67 @@
+footer {
+    background-color: #ffffff; /* Color de fondo */
+    padding: 20px 0; /* Espacio interior */
+    
+  }
+  /* Estilos para los iconos de redes sociales */
+  .redes-sociales i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  .card{
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  .card:hover {
+    background-color: #007bff; /* Cambia el color de fondo al azul */
+  }
+
+  .card:hover .card-text,
+  .card:hover i {
+    color: white; /* Cambia el color del texto y el icono a blanco*/
+  }
+
+  /* Estilos para la sección con fondo */
+  .fondo {
+    background-image: url('../assets/mercedes-benz2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white; /* Color del texto */
+    text-align: center;
+    padding: 100px 0; /* Espacio interior */
+    width: 82.1rem !important; /* Abarcar todo el ancho de la página */
+    margin-right: calc(50% - 700px) !important; /* Centrar el contenido */
+    margin-left: calc(50% - 689px) !important; /* Centrar el contenido */
+    position: relative; /* Asegurar que el contenido sea relativo */
+    z-index: 1;
+  }
+
+  .container-2{
+    background-size: cover;
+    background-position: center;
+    color: white; /* Color del texto */
+    padding: 100px 29px ; /* Espacio interior */
+    margin-right: calc(60% - 700px) !important; /* Centrar el contenido */
+    margin-left: calc(55% - 689px) !important; /* Centrar el contenido */
+    position: relative; /* Asegurar que el contenido sea relativo */
+    z-index: 1;
+    background-color: rgb(52, 48, 48);
+  }
+  .pha, li{
+    list-style-type: none;
+    font-size: 15px;
+    color: rgb(149, 143, 143);
+  }
+
+
+.fab{
+    font-size: 50px !important;
+    margin-left: 29px;
+}
+.Red-social {
+    text-align: center;
+}
+.copyright {
+    margin-top: 10px;
+    height: 1px; 
+    background-color:rgb(39, 37, 37);
+}
