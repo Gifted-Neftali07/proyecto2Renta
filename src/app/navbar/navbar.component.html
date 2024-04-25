@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+        <img src="../../assets/img/logoSinFondo.png" alt="">
+        <p class="bebas-neue-regular">HADE</p>
+         
+     
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="madimi-one-regular" href="/home">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="madimi-one-regular" href="/vehiculos">VEHICULOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="madimi-one-regular" [routerLink]="['/servicios']">SERVICIOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="madimi-one-regular" href="/contacto">CONTACTANOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="madimi-one-regular" href="/acerca">ACERCA</a>
+              </li>
+              <li class="nav-item">
+                <a class="madimi-one-regular" href="/preguntas">PREGUNTAS</a>
+              </li>
+            </ul>
+            <div id="buscovehiculo" class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Buscar" #buscarTexto (keyup.enter)="buscarUnVehiculo(buscarTexto.value)">
+
+              <button class="btn btn-outline-success my-2 my-sm-0" (click)="buscarUnVehiculo (buscarTexto.value)" type="button">Buscador</button>
+              </div>
+          </div>
+        </div>
+      </nav>
+    
+</body>
+</html>

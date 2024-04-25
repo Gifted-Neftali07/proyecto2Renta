@@ -1,0 +1,119 @@
+body {
+    background-color: rgba(0, 42, 255, 0.626);
+}
+
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bffd1;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff41;
+    color: rgb(218, 0, 0);
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.089);
+    color: white;
+    border-color: rgb(255, 0, 0);
+}
+
+.card-title {
+    color: rgb(55, 0, 255);
+}
+
+.card-text {
+    color: rgb(255, 255, 255);
+}
+h1{
+    color: rgb(19, 13, 48);
+    font-size: 50px;
+}
+
+.encabezado {
+    background-image: url('https://cdn.pixabay.com/photo/2023/10/26/15/11/mercedes-8342911_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Ajusta la altura según tu preferencia */
+    text-align: center;
+    color: white; /* Color del texto */
+    padding-top: 50px; /* Espacio superior para el texto */
+}
+
+.texto-encabezado {
+    max-width: 800px; /* Ancho máximo del texto */
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+.texto-encabezado h1 {
+    font-size: 2.5em; /* Tamaño del título */
+    margin-bottom: 20px; /* Espacio inferior del título */
+}
+
+.texto-encabezado p {
+    font-size: 1.2em; /* Tamaño del texto */
+}
+
+
+
+  h1 {
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+    color: #888;
+  }
+
+  nav {
+    text-align: center;
+    margin-top: 20px;
+  }
+  nav a {
+    padding: 15px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 4px;
+    font-size:24px;
+    margin-right: 5px;;
+    }
+    nav a:visited, a:link {
+    color: #607D8B
+    }
+    nav a:hover{
+    color: #039BE5;
+    background-color: #CFD8DC;
+    }
+    nav a:active{
+    color: #039BE5;
+    }
+
+  .menu-link {
+    text-decoration: none;
+    color: #333; /* Color del texto */
+    font-size: 16px; /* Tamaño del texto */
+    margin-right: 20px; /* Espacio entre enlaces */
+    transition: color 0.3s; /* Transición suave para el color */
+  }
+
+  .menu-link:hover {
+    color: #555; /* Cambiar el color al pasar el ratón */
+  }
+
+  .active {
+    font-weight: bold; /* Resaltar el enlace activo */
+    color: #000; /* Color del enlace activo */
+  }
+
+
+.grid-item {
+    float: left;
+    width: 80px;
+    height: 60px;
+    border: 2px solid hsla(0, 0%, 0%, 0.5);
+  }
+  
+  .grid-item--width2 { width: 160px; }
+  .grid-item--height2 { height: 140px; }

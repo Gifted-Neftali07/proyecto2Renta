@@ -1,0 +1,31 @@
+
+
+
+
+<h1 class="animate_animated animate_bounce">{{vehiculo.marca}} <small>{{vehiculo.modelo}}</small></h1>
+<hr>
+<div class="row animated fadeIn fast">
+<div class="col md-4 text-center">
+<img width="300px" src="{{vehiculo.imagen}}" alt="" class="img-fluid">
+<br><br>
+<a [routerLink]="['/vehiculos']" class="btn btn-outline-danger btn-block">Regresar</a>
+</div>
+<div class="col md-8">
+<h3>{{vehiculo.marca}}</h3>
+<hr>
+<p>
+{{vehiculo.tipo}}
+</p>
+<!--
+@if(heroe.tipo=='Honda'){
+<div>
+<img src="assets/img/marvel.jpg" width="150px" alt="">
+</div>
+}
+@else{
+<div>
+<img src="assets/img/dc.jpg" width="150px" alt="">
+</div>
+}
+</div>
+</div>-->

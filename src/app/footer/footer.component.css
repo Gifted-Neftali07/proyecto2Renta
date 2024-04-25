@@ -1,0 +1,55 @@
+.containerP{
+    background-color: rgb(216, 215, 215);
+    padding: 30px;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin-left: -200px;
+    color: black;
+}
+
+img{
+    height: 150px;
+    margin-left: -250px;
+}
+
+.descripcion{
+    margin-top: -180px;
+    margin-left: -120px;
+    padding: 50px;
+    color:green;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.menu{
+    margin-top: 50px;
+    margin-left: 255px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:green;
+    font-size: 20px;
+}
+
+.list-unstyled{
+    margin-left: 250px;
+}
+
+.imgFacecook{
+    height: 50px;
+    margin-left: 50px;
+}
+
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: black;
+  }

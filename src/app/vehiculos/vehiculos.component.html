@@ -1,0 +1,45 @@
+<header class="encabezado">
+    <div class="texto-encabezado">
+        <h1>Bienvenido a nuestra página de vehículos</h1>
+        <p>Explora nuestra selección de vehículos nuevos y usados.</p>
+    </div>
+</header>
+<!--
+<div class="grid">
+    <div class="grid-item"></div>
+    <div class="grid-item grid-item--width2"></div>
+    <div class="grid-item grid-item--height2"></div>
+    ...
+  </div>-->
+
+
+
+<h1 class="text-center">Obtenga los <small>Mejores Precios</small></h1>
+<nav>
+    <!-- Botones para filtrar por tipo -->
+    <button (click)="filtrarTipo('todos')">Todos</button>
+    <button (click)="filtrarTipo('economico')">Económico</button>
+    <button (click)="filtrarTipo('intermedio')">Intermedio</button>
+    <button (click)="filtrarTipo('premium')">Premium</button>
+  </nav>
+  
+  <div class="card-group row row-cols-1 row-cols-lg-3 g-4">
+    <!-- Filtrar los carros basado en el tipo seleccionado -->
+    @for (h of misVehiculos; track h; let i = $index){
+      @if (tipoFiltro === 'todos' || h.tipo.toLowerCase() === tipoFiltro) {
+        <div class="col">
+          <div class="card h-100">
+            <img src="{{h.imagen}}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{h.marca}}</h5>
+              <p class="card-text">{{h.tipo}}</p>
+              <p class="card-text"><small class="text-muted">{{h.modelo}}</small></p>
+            </div>
+            <button [routerLink]="['/vehiculo',i]" class="mb-3 btn btn-outline-primary btn-block">Ver MÁS</button>
+          </div>
+        </div>
+      }
+    }
+  </div>
+  
+  

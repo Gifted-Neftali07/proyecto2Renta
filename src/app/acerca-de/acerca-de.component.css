@@ -1,0 +1,19 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 20px;
+}
+h1{
+    color: rgb(0, 28, 131);
+}
+h2 {
+    color: #0044ff;
+    font-size: 50px;
+    text-align: center;
+}
+p {
+    color: #474747;
+    font-size: 20px;
+}li{
+    color: rgb(76, 76, 76);
+}

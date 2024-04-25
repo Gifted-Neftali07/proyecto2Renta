@@ -1,0 +1,47 @@
+.custom-table tbody th:hover {
+    background-color: #ae5cb2 !important;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    
+}
+
+.custom-table tbody td:hover {
+    background-color: #adabab !important;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    
+}
+
+img{
+    height: 80px;
+    margin-left: 25px;
+}
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 45px;
+}
+ 
+.custom-table{
+    display: flex; /* Usa el modelo de caja flexible */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    margin-top: 50px; /* Margen superior opcional para separar la tabla del borde superior */
+ }
+
+/* Estilo para las celdas de la tabla */
+  .custom-table td,
+  .custom-table th {
+    border-radius: 100px; /* Radio de la esquina */
+    overflow:hidden; /* Color de texto */
+  }
+
+  
+ 
+th, td{
+    margin-left: 55px;
+    text-align: center;
+    font-size: 25px;
+}
