@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+<<<<<<< HEAD
 import { ServiciosComponent } from './servicios/servicios.component';
 import { VehiculosComponent } from './vehiculos/vehiculos.component';
 import { UnvehiculoComponent } from './unvehiculo/unvehiculo.component';
@@ -22,3 +23,7 @@ export const routes: Routes = [
     {path: '**', pathMatch: 'full', redirectTo: 'home'}
     
 ];
+=======
+
+export const routes: Routes = [];
+>>>>>>> 992e074015fd8220ff157716f2519d66620b7887
